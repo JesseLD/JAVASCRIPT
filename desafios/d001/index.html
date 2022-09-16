@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio JS Botões</title>
+    <style>
+        body{
+            font: normal 12pt arial;
+        }
+        button{
+            width: 100px;
+            height: 50px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio Botões</h1>
+    <span class="b1"><button>A</button></span>
+    <span class="b2"><button>B</button></span>
+    <span class="b3"><button>C</button></span>
+    
+</body>
+
+<script>
+
+
+
+    var bb1 = window.document.getElementsByClassName('b1')[0]
+    var bb2 = window.document.getElementsByClassName('b2')[0]
+    var bb3 = window.document.getElementsByClassName('b3')[0]
+
+    bb1.addEventListener('click', alerta)
+    bb2.addEventListener('click', alerta2)
+    bb3.addEventListener('click', alerta3)
+    
+    
+
+    function alerta(){
+        window.alert("Você Clicou no botão A")
+       
+    }
+    function alerta2(){
+        window.alert("Você Clicou no botão B")
+       
+    }
+    function alerta3(){
+        window.alert("Você Clicou no botão C")
+        
+    }
+    
+    
+
+
+
+</script>
+</html>

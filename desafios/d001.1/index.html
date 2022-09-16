@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Países</title>
+</head>
+<body>
+    <h1>De onde Você é</h1>
+    <div class="box">
+        <input class="inpt"
+            type="text"
+            id="bt"
+            pattern="[A-Za-z*]"
+            placeholder="Search, Here!"
+         >
+        <input 
+            id="bt1" 
+            type="button"
+            value="Send" 
+            onclick="sch()">
+    </div>
+
+    <script>
+        function sch(){
+            var ck = window.document.getElementById("bt")
+            var pais = 'Brasil'
+            var ck2 = String(ck.value)
+            if(ck2 != pais){
+            window.alert("fora" )
+             }else{
+            window.alert("br")
+
+            }
+    }
+
+    </script>
+</body>
+</html>

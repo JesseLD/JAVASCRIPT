@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+body{
+    color: white;
+    font: normal 16pt arial;
+    animation: rgb1 12s linear infinite;
+    
+}
+@keyframes rgb1 {
+    0%{background-color: red;}
+    10%{background-color: blueviolet;}
+    20%{background-color: purple;}
+    30%{background-color: blue;}
+    40%{background-color: aquamarine};
+    50%{background-color: darkcyan;}
+    60%{background-color: green;}
+    70%{background-color: yellowgreen;}
+    80%{background-color: yellow;}
+    90%{background-color: orange;}
+    100%{background-color: orangered;}
+}
+h1{
+    text-align: center;
+    margin-top: 60px;
+}
+.box{
+    margin-top: 2vw;
+    text-align: center;
+}
+div > input[type="text"]{
+    background-color: white;
+    border-radius: 25px;
+    width: 400px;
+    height: 50px;
+    text-indent: 20px;
+    font-size: 20pt;
+    border-color: black;
+    border-width: 3px;
+}
+.buttons{
+    margin-top: 6vw;
+    text-align: center;
+    
+    
+}
+button{
+border-radius: 12px;
+border-color: white;
+}
+
+inpust[type="text"]:invalid{
+    
+    animation: shake 0.5s linear;
+}
+@keyframes shake{
+    25%{
+        transform: translateX(4px);
+        background-color: transparent;
+    }
+    50%{
+        transform: translateX(-4px);
+        background-color: red;
+    }
+    70%{
+        background-color: red;
+
+    }
+    75%{
+        transform: translateX(4px);
+    }
+
+}
+
+.bl{
+    background-color: cyan;
+   
+}
+.bk{
+    background-color: black;
+    color: white;
+}
+.rd{
+    background-color: red;
+}
+.gn{
+    background-color: greenyellow;
+}
+.ylw{
+    background-color: yellow;
+}
+#bt1    {
+    display: block;
+    margin: 10px auto;
+    background-color: chartreuse;
+    color: white;
+    font-size: 1.1em;
+    padding: 20px;
+    border-radius: 12px;
+    border-color: white;
+    border-style: none;
+}

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+.bordas{ /*borda do celular*/
+    margin: auto;
+    width: 320px;
+    height: 600px;
+    background-color: 0;
+    border: 8px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+.appBox{
+    width: 30px;
+    height: 24px;
+    background-color: aquamarine;
+    
+}
+div > .botoes{
+    align-self: end;
+    margin: 0 auto 0 auto;
+    
+}
+
+.botoes > #b1,#b2,#b3{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(46, 32, 32);
+    margin: 35px;
+}
+
+
