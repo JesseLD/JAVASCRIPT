@@ -2,26 +2,29 @@
 
 body{
     background-color: cornflowerblue;
-    color: white;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
     text-align: center;
 }
 section{
     background-color: white;
+    
     width: 400px;
     border-radius: 20px;
     margin: auto;
     padding: 20px;
     box-shadow: 0px 5px 10px 5px #50505050;
 }
-section .content{
+section .msg{
     color: black;
+    font-weight: bold;
+    margin: 15px;
 }
 section .image{
-    background-color: red;
+    /*background-color: red;
     width: 250px;
     height: 250px;
-    border-radius: 125px;
+    border-radius: 125px;*/
     margin: auto;
 }
 footer{

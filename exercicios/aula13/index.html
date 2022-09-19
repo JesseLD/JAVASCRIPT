@@ -7,16 +7,16 @@
     <link rel="stylesheet" href="src/style.css">
     <title>Hora do Dia</title>
 </head>
-<body>
+<body onload="dayTime()">
     <header>
-        <h1>Hora do dia</h1>
+        <h1 id="title">Hora do dia</h1>
     </header>
     <section>
-        <div class="content">
-            <p>Agora são&nbsp;<span id="time"></span>&nbsp;Horas</p>
+        <div class="msg">
+            Loading...
         </div>
         <div class="image">
-
+            <img id="imageSrc" width="250px" src="media/Manha.png" alt="">
         </div>
     </section>
     <footer>
