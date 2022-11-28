@@ -9,11 +9,21 @@
 </head>
 <body>
     <header>
-        <h1>Hora do dia</h1>
+        <h1>Verificador de Idade</h1>
     </header>
     <section>
         <div class="content">
-            <p>Agora são&nbsp;<span id="time"></span>&nbsp;Horas</p>
+            <span class="text ttle">Ano de Nascimento</span>
+            <input type="number" name="age" id="age" placeholder="Idade" required><br>
+            <div class="tx2">
+                <span class="text ">Sexo:</span>
+                <input class="ckbox" type="radio" name="radsex" id="male">
+                <span>Masculino</span>
+                <input class="ckbox" type="radio" name="radsex" id="female" >
+                <span>Feminino</span>
+            </div>
+            <input class="btn"type="button" value="Verificar" onclick="getAge()">
+            <p>Preencha os dados acima para ver o resultado</p>
         </div>
         <div class="image">
 
