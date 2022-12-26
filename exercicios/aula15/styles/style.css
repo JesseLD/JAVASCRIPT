@@ -34,4 +34,26 @@ h1{
 }
 .html{
   margin: 10px 0 0 0;
+  text-align: center;
+}
+.img{
+  text-align: center;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  background-color: lightgray;
+  margin: 20px;
+  background-size: cover;
+}
+footer{
+  font-weight: bolder;
+  margin: 20px;
+  text-align: center;
+}
+footer>p>a{
+  color: yellow;
+  cursor: pointer;
+  text-decoration: none;
+
 }
